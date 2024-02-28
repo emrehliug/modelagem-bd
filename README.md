@@ -19,3 +19,10 @@ by <a href="https://www.dio.me/articles/organizando-um-banco-de-dados-usando-as-
 
     Ex: basicamente aqui é o que chamamos de PK(Primary key) da tabela. 
 
+Agora vamos aplicar essas 3 regras em uma tabela Cliente: 
+
+![image](https://github.com/emrehliug/modelagem-bd/assets/44777996/ae92e839-11b7-4e8f-914e-5f6598576d46)
+
+Analisando essa entidade entendemos que a mesma esta sem um campo unico de indentificação (fere a regra numero 3), o campo telefone pode ser vetorizado onde 1 cliente pode ter N telefones (fere regra numero 1), e por fim o campo endereço é um multivalorado, contendo toda a informação RUA-BAIRRO-CEP-UF que pode ser dividida nele mesmo.
+
+Como corrigimos isso? simples, seguindo as 3 regras da primeira forma, como mostra a modelagem abaixo:
