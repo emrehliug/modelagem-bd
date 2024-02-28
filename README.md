@@ -26,3 +26,8 @@ Agora vamos aplicar essas 3 regras em uma tabela Cliente:
 Analisando essa entidade entendemos que a mesma esta sem um campo unico de indentificação (fere a regra numero 3), o campo telefone pode ser vetorizado onde 1 cliente pode ter N telefones (fere regra numero 1), e por fim o campo endereço é um multivalorado, contendo toda a informação RUA-BAIRRO-CEP-UF que pode ser dividida nele mesmo.
 
 Como corrigimos isso? simples, seguindo as 3 regras da primeira forma, como mostra a modelagem abaixo:
+
+![image](https://github.com/emrehliug/modelagem-bd/assets/44777996/b8a91534-88cd-4765-b949-f18423dbd779)
+
+Analisando a modelagem podemos indenficar que a tabela cliente alem de receber um ID(identificação unica de registro) foram separados os campos telefone e endereço, onde cada um virou uma tabela que se relaciona com a tabela Cliente. Assim resolvemos o problema e respeitamos as 3 regras da primeira forma.
+
