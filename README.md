@@ -29,5 +29,5 @@ Como corrigimos isso? simples, seguindo as 3 regras da primeira forma, como most
 
 ![image](https://github.com/emrehliug/modelagem-bd/assets/44777996/b8a91534-88cd-4765-b949-f18423dbd779)
 
-Analisando a modelagem podemos indenficar que a tabela cliente alem de receber um ID(identificação unica de registro) foram separados os campos telefone e endereço, onde cada um virou uma tabela que se relaciona com a tabela Cliente. Assim resolvemos o problema e respeitamos as 3 regras da primeira forma.
+Analisando a modelagem podemos idenficar que a tabela cliente alem de receber um ID(identificação unica de registro) foram separados os campos telefone e endereço, onde cada um virou uma tabela que se relaciona com a tabela Cliente. Assim resolvemos o problema e respeitamos as 3 regras da primeira forma.
 
