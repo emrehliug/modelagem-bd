@@ -5,7 +5,7 @@ Em 1976 o Dr.Peter Cheng propõe o modelo entidade-relacinamento (ER) para banco
 ## Banco de dados usando formas normais
 
 "A normalização de banco de dados é o processo de organizar um banco de dados relacional de acordo com uma série de formas normais para reduzir a redundância de dados e melhorar a integridade dos dados."
-by Giovanni Rozza
+by <a href="https://www.dio.me/articles/organizando-um-banco-de-dados-usando-as-formas-normais">Giovanni Rozza</a>
 
 ### Primeira Forma:
 1 - Todo campo vetorizado se tornara outra tabela.
